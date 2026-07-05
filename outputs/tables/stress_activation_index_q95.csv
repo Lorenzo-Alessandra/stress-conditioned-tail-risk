@@ -1,0 +1,9 @@
+asset,connectedness_calm,connectedness_stress,connectedness_stress_minus_calm,connectedness_stress_to_calm_ratio,persistent_connectedness,stress_activation_index,stress_activation_ratio,persistent_connectedness_group,stress_activation_group,systemic_tail_type,rank_persistent_connectedness,rank_stress_activation,rank_stress_connectedness
+CBK.DE,0.356804,0.555256,0.198452,1.556192,0.45603,0.198452,1.556193,low,high,stress activator,8.0,1.0,6.0
+DBK.DE,0.420447,0.563342,0.142895,1.339866,0.491894,0.142895,1.339864,low,high,stress activator,6.0,2.0,4.0
+BBVA.MC,0.442112,0.576819,0.134707,1.30469,0.509466,0.134707,1.30469,high,high,stress-amplified core,4.0,3.0,2.0
+INGA.AS,0.439404,0.568733,0.129329,1.294328,0.504069,0.129329,1.294328,low,high,stress activator,5.0,4.0,3.0
+SAN.MC,0.462424,0.584906,0.122482,1.264869,0.523665,0.122482,1.264869,high,low,persistent core,1.0,5.0,1.0
+GLE.PA,0.463778,0.560647,0.096869,1.208869,0.512212,0.096869,1.208869,high,low,persistent core,3.0,6.0,5.0
+ISP.MI,0.436019,0.514825,0.078806,1.180739,0.475422,0.078806,1.18074,low,low,peripheral,7.0,7.0,8.0
+BNP.PA,0.486121,0.555256,0.069136,1.142219,0.520688,0.069135,1.142218,high,low,persistent core,2.0,8.0,6.0

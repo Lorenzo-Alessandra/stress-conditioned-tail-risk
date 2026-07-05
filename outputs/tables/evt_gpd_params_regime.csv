@@ -1,0 +1,17 @@
+asset,stress_regime,regime_label,threshold_quantile,threshold_value,n_observations,exceedance_count,shape_xi,scale_beta,loglikelihood,convergence_success,optimizer_message
+BBVA.MC,0,calm,0.95,1.543483,4221,211,0.067156,0.572031,-107.313172,True,Optimization terminated successfully.
+BBVA.MC,1,stress,0.95,1.867955,1055,53,0.180522,0.742697,-46.801929,True,Optimization terminated successfully.
+BNP.PA,0,calm,0.95,1.510988,4221,211,0.022033,0.616177,-113.478247,True,Optimization terminated successfully.
+BNP.PA,1,stress,0.95,2.014805,1055,53,0.150036,0.633588,-36.765061,True,Optimization terminated successfully.
+CBK.DE,0,calm,0.95,1.53471,4221,211,0.135414,0.495568,-91.439667,True,Optimization terminated successfully.
+CBK.DE,1,stress,0.95,1.785961,1055,53,0.244329,0.694709,-46.64355,True,Optimization terminated successfully.
+DBK.DE,0,calm,0.95,1.534319,4221,211,0.105415,0.557727,-110.042664,True,Optimization terminated successfully.
+DBK.DE,1,stress,0.95,1.944029,1055,53,0.265152,0.689411,-47.341436,True,Optimization terminated successfully.
+GLE.PA,0,calm,0.95,1.483799,4221,211,0.247499,0.438236,-89.147678,True,Optimization terminated successfully.
+GLE.PA,1,stress,0.95,2.064971,1055,53,0.135729,0.792145,-47.844086,True,Optimization terminated successfully.
+INGA.AS,0,calm,0.95,1.509764,4221,211,0.149889,0.576699,-126.484835,True,Optimization terminated successfully.
+INGA.AS,1,stress,0.95,1.941629,1055,53,0.218082,0.758306,-49.894908,True,Optimization terminated successfully.
+ISP.MI,0,calm,0.95,1.598143,4221,211,0.115155,0.483838,-82.110752,True,Optimization terminated successfully.
+ISP.MI,1,stress,0.95,2.049184,1055,53,0.198214,0.720286,-46.115706,True,Optimization terminated successfully.
+SAN.MC,0,calm,0.95,1.567649,4221,211,-0.002385,0.563665,-89.531448,True,Optimization terminated successfully.
+SAN.MC,1,stress,0.95,1.896829,1055,53,0.270645,0.605768,-40.777557,True,Optimization terminated successfully.

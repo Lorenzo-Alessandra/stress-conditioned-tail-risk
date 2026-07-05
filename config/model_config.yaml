@@ -1,0 +1,70 @@
+sample:
+  start_date: "2005-01-01"
+  end_date: "2026-12-31"
+
+modeling_universe:
+  included_banks:
+    - BBVA.MC
+    - BNP.PA
+    - CBK.DE
+    - DBK.DE
+    - GLE.PA
+    - INGA.AS
+    - ISP.MI
+    - SAN.MC
+  excluded_banks:
+    UCG.MI:
+      reason: "Excluded from first free-data modeling sample due to repeated early-sample adjusted-price jump/reversal artifacts in Yahoo data."
+
+returns:
+  method: log
+  price_field_preference:
+    - Adj Close
+    - Close
+  drop_missing: true
+
+losses:
+  definition: negative_returns
+
+stress_regime:
+  primary_variable: VIX
+  quantile_threshold: 0.80
+
+system_loss:
+  weighting: equal
+
+evt:
+  threshold_quantiles:
+    - 0.90
+    - 0.95
+    - 0.975
+  main_threshold_quantile: 0.95
+  tail_probability_levels:
+    - 0.99
+    - 0.995
+  clustering_run_length: 3
+
+garch:
+  model: GJR-GARCH
+  p: 1
+  o: 1
+  q: 1
+  distribution: student_t
+
+tail_dependence:
+  q_levels:
+    - 0.90
+    - 0.95
+    - 0.975
+  network_threshold: 0.55
+
+backtesting:
+  rolling_window: 1500
+  refit_frequency: 20
+
+copula:
+  model: student_t
+  nu_lower_bound: 2.1
+  nu_upper_bound: 50.0
+  simulation_observations: 100000
+  random_seed: 42

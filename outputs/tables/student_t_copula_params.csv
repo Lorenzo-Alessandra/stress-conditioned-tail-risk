@@ -1,0 +1,2 @@
+model,degrees_of_freedom,loglikelihood,observations,dimension,convergence_success,optimizer_message
+student_t_copula,4.984886,23952.818214,5389,8,True,Solution found.

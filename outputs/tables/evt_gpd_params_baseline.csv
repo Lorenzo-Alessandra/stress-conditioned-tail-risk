@@ -1,0 +1,9 @@
+asset,threshold_quantile,threshold_value,n_observations,exceedance_count,shape_xi,scale_beta,loglikelihood,convergence_success,optimizer_message
+BBVA.MC,0.95,1.618724,5389,270,0.127067,0.592461,-162.971195,True,Optimization terminated successfully.
+BNP.PA,0.95,1.633511,5389,270,0.073252,0.620012,-160.713686,True,Optimization terminated successfully.
+CBK.DE,0.95,1.601188,5389,270,0.226608,0.499999,-144.033725,True,Optimization terminated successfully.
+DBK.DE,0.95,1.640318,5389,270,0.201685,0.556741,-166.328051,True,Optimization terminated successfully.
+GLE.PA,0.95,1.581089,5389,270,0.216987,0.551617,-167.963087,True,Optimization terminated successfully.
+INGA.AS,0.95,1.58527,5389,270,0.157133,0.646225,-194.541968,True,Optimization terminated successfully.
+ISP.MI,0.95,1.634078,5389,270,0.105712,0.615687,-167.587784,True,Optimization terminated successfully.
+SAN.MC,0.95,1.630782,5389,270,0.081609,0.585008,-147.279326,True,Optimization terminated successfully.

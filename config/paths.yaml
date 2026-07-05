@@ -1,0 +1,70 @@
+data:
+  raw_free: data/raw/free
+  raw_refinitiv: data/raw/refinitiv
+  interim_prices_clean: data/interim/prices_clean
+  interim_returns: data/interim/returns
+  interim_stress_variables: data/interim/stress_variables
+  processed: data/processed
+
+outputs:
+  figures: outputs/figures
+  tables: outputs/tables
+  logs: outputs/logs
+  reports: outputs/reports
+
+processed_files:
+  bank_prices: data/processed/panel_bank_prices.parquet
+  market_prices: data/processed/panel_market_prices.parquet
+  prices: data/processed/panel_prices.parquet
+  returns: data/processed/panel_returns.parquet
+  losses: data/processed/panel_losses.parquet
+  stress_variables: data/processed/stress_variables.parquet
+  system_loss: data/processed/system_loss.parquet
+  garch_params: data/processed/garch_params.parquet
+  garch_conditional_volatility: data/processed/garch_conditional_volatility.parquet
+  garch_standardized_residuals: data/processed/garch_standardized_residuals.parquet
+  standardized_residual_losses: data/processed/standardized_residual_losses.parquet
+  evt_gpd_params_baseline: data/processed/evt_gpd_params_baseline.parquet
+  evt_var_es_baseline: data/processed/evt_var_es_baseline.parquet
+  evt_gpd_params_threshold_robustness: data/processed/evt_gpd_params_threshold_robustness.parquet
+  evt_var_es_threshold_robustness: data/processed/evt_var_es_threshold_robustness.parquet
+  evt_gpd_params_declustering_robustness: data/processed/evt_gpd_params_declustering_robustness.parquet
+  evt_var_es_declustering_robustness: data/processed/evt_var_es_declustering_robustness.parquet
+  conditional_var_baseline: data/processed/conditional_var_baseline.parquet
+  conditional_es_baseline: data/processed/conditional_es_baseline.parquet
+  var_backtesting_baseline: data/processed/var_backtesting_baseline.parquet
+  var_violations_baseline: data/processed/var_violations_baseline.parquet
+  es_scoring_baseline: data/processed/es_scoring_baseline.parquet
+  es_scores_daily_baseline: data/processed/es_scores_daily_baseline.parquet
+  stress_regime: data/processed/stress_regime.parquet
+  evt_gpd_params_regime: data/processed/evt_gpd_params_regime.parquet
+  evt_var_es_regime: data/processed/evt_var_es_regime.parquet
+  conditional_var_regime: data/processed/conditional_var_regime.parquet
+  conditional_es_regime: data/processed/conditional_es_regime.parquet
+  baseline_regime_risk_comparison: data/processed/baseline_regime_risk_comparison.parquet
+  var_backtesting_regime: data/processed/var_backtesting_regime.parquet
+  var_violations_regime: data/processed/var_violations_regime.parquet
+  es_scoring_regime: data/processed/es_scoring_regime.parquet
+  es_scores_daily_regime: data/processed/es_scores_daily_regime.parquet
+  model_evaluation_comparison: data/processed/model_evaluation_comparison.parquet
+  tail_dependence_pairwise: data/processed/tail_dependence_pairwise.parquet
+  tail_dependence_matrix_q95: data/processed/tail_dependence_matrix_q95.parquet
+  tail_dependence_network_edges_q95: data/processed/tail_dependence_network_edges_q95.parquet
+  tail_dependence_network_summary_q95: data/processed/tail_dependence_network_summary_q95.parquet
+  tail_dependence_network_edges_q95_threshold_050: data/processed/tail_dependence_network_edges_q95_threshold_050.parquet
+  tail_dependence_network_summary_q95_threshold_050: data/processed/tail_dependence_network_summary_q95_threshold_050.parquet
+  covar_empirical: data/processed/covar_empirical.parquet
+  systemic_risk_summary: data/processed/systemic_risk_summary.parquet
+  tail_dependence_pairwise_regime: data/processed/tail_dependence_pairwise_regime.parquet
+  tail_dependence_matrix_calm_q95: data/processed/tail_dependence_matrix_calm_q95.parquet
+  tail_dependence_matrix_stress_q95: data/processed/tail_dependence_matrix_stress_q95.parquet
+  tail_dependence_matrix_stress_minus_calm_q95: data/processed/tail_dependence_matrix_stress_minus_calm_q95.parquet
+  tail_connectedness_regime_summary: data/processed/tail_connectedness_regime_summary.parquet
+  student_t_copula_params: data/processed/student_t_copula_params.parquet
+  student_t_copula_correlation: data/processed/student_t_copula_correlation.parquet
+  student_t_copula_asymptotic_tail_dependence: data/processed/student_t_copula_asymptotic_tail_dependence.parquet
+  student_t_copula_simulated_tail_dependence: data/processed/student_t_copula_simulated_tail_dependence.parquet
+  student_t_copula_empirical_comparison_q95: data/processed/student_t_copula_empirical_comparison_q95.parquet
+  stress_activation_index_q95: data/processed/stress_activation_index_q95.parquet
+  stress_activation_pairwise_q95: data/processed/stress_activation_pairwise_q95.parquet
+  

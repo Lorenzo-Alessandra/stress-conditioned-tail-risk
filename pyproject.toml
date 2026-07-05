@@ -1,0 +1,9 @@
+[project]
+name = "extreme-tail-risk-thesis"
+version = "0.1.0"
+description = "Extreme value theory pipeline for systemic tail risk in European banks"
+requires-python = ">=3.10"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["src*"]

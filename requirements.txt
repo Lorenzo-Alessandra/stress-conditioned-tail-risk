@@ -1,0 +1,13 @@
+pandas
+numpy
+scipy
+matplotlib
+pyyaml
+pyarrow
+yfinance
+pandas-datareader
+statsmodels
+arch
+pytest
+jinja2
+networkx

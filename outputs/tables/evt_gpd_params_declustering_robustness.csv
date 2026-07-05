@@ -1,0 +1,25 @@
+asset,threshold_quantile,threshold_value,declustering_method,run_length,n_observations,exceedance_count,shape_xi,scale_beta,loglikelihood,convergence_success,optimizer_message
+BBVA.MC,0.95,1.618724,none,0,5389,270,0.127067,0.592461,-162.971195,True,Optimization terminated successfully.
+BBVA.MC,0.95,1.618724,runs,3,5389,216,0.077174,0.705835,-157.420909,True,Optimization terminated successfully.
+BBVA.MC,0.95,1.618724,runs,5,5389,196,0.057949,0.755837,-152.491867,True,Optimization terminated successfully.
+BNP.PA,0.95,1.633511,none,0,5389,270,0.073252,0.620012,-160.713686,True,Optimization terminated successfully.
+BNP.PA,0.95,1.633511,runs,3,5389,224,0.062309,0.680432,-151.711066,True,Optimization terminated successfully.
+BNP.PA,0.95,1.633511,runs,5,5389,203,0.044951,0.736836,-150.130829,True,Optimization terminated successfully.
+CBK.DE,0.95,1.601188,none,0,5389,270,0.226608,0.499999,-144.033725,True,Optimization terminated successfully.
+CBK.DE,0.95,1.601188,runs,3,5389,217,0.09808,0.659253,-147.870824,True,Optimization terminated successfully.
+CBK.DE,0.95,1.601188,runs,5,5389,196,0.047104,0.740086,-146.238549,True,Optimization terminated successfully.
+DBK.DE,0.95,1.640318,none,0,5389,270,0.201685,0.556741,-166.328051,True,Optimization terminated successfully.
+DBK.DE,0.95,1.640318,runs,3,5389,216,0.13957,0.668378,-159.120333,True,Optimization terminated successfully.
+DBK.DE,0.95,1.640318,runs,5,5389,206,0.135186,0.688179,-156.864848,True,Optimization terminated successfully.
+GLE.PA,0.95,1.581089,none,0,5389,270,0.216987,0.551617,-167.963087,True,Optimization terminated successfully.
+GLE.PA,0.95,1.581089,runs,3,5389,218,0.193005,0.636519,-161.595576,True,Optimization terminated successfully.
+GLE.PA,0.95,1.581089,runs,5,5389,197,0.193213,0.669312,-155.966415,True,Optimization terminated successfully.
+INGA.AS,0.95,1.58527,none,0,5389,270,0.157133,0.646225,-194.541968,True,Optimization terminated successfully.
+INGA.AS,0.95,1.58527,runs,3,5389,221,0.121811,0.737439,-180.609885,True,Optimization terminated successfully.
+INGA.AS,0.95,1.58527,runs,5,5389,205,0.117981,0.765131,-174.305959,True,Optimization terminated successfully.
+ISP.MI,0.95,1.634078,none,0,5389,270,0.105712,0.615687,-167.587784,True,Optimization terminated successfully.
+ISP.MI,0.95,1.634078,runs,3,5389,220,0.07277,0.713043,-161.602448,True,Optimization terminated successfully.
+ISP.MI,0.95,1.634078,runs,5,5389,197,0.061214,0.759903,-154.969945,True,Optimization terminated successfully.
+SAN.MC,0.95,1.630782,none,0,5389,270,0.081609,0.585008,-147.279326,True,Optimization terminated successfully.
+SAN.MC,0.95,1.630782,runs,3,5389,226,0.062475,0.646662,-141.598815,True,Optimization terminated successfully.
+SAN.MC,0.95,1.630782,runs,5,5389,205,0.047685,0.69398,-139.88638,True,Optimization terminated successfully.

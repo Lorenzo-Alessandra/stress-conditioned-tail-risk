@@ -1,0 +1,62 @@
+banks:
+  UCG.MI:
+    name: UniCredit
+    country: Italy
+    currency: EUR
+
+  ISP.MI:
+    name: Intesa Sanpaolo
+    country: Italy
+    currency: EUR
+
+  BNP.PA:
+    name: BNP Paribas
+    country: France
+    currency: EUR
+
+  GLE.PA:
+    name: Societe Generale
+    country: France
+    currency: EUR
+
+  DBK.DE:
+    name: Deutsche Bank
+    country: Germany
+    currency: EUR
+
+  CBK.DE:
+    name: Commerzbank
+    country: Germany
+    currency: EUR
+
+  SAN.MC:
+    name: Santander
+    country: Spain
+    currency: EUR
+
+  BBVA.MC:
+    name: BBVA
+    country: Spain
+    currency: EUR
+
+  INGA.AS:
+    name: ING
+    country: Netherlands
+    currency: EUR
+
+market_indices:
+  STOXX50E:
+    yahoo_ticker: ^STOXX50E
+    name: Euro Stoxx 50
+    type: broad_market
+
+  SX7E:
+    yahoo_ticker: EXX1.DE
+    name: STOXX Europe 600 Banks ETF Proxy
+    type: banking_sector_proxy
+
+stress_variables:
+  VIX:
+    fred_code: VIXCLS
+    name: CBOE Volatility Index
+    source: FRED

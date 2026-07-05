@@ -1,0 +1,25 @@
+asset,threshold_quantile,threshold_value,n_observations,exceedance_count,shape_xi,scale_beta,loglikelihood,convergence_success,optimizer_message
+BBVA.MC,0.9,1.199257,5389,539,0.098624,0.579065,-297.680865,True,Optimization terminated successfully.
+BBVA.MC,0.95,1.618724,5389,270,0.127067,0.592461,-162.971195,True,Optimization terminated successfully.
+BBVA.MC,0.975,2.043933,5389,135,0.154428,0.626232,-92.663066,True,Optimization terminated successfully.
+BNP.PA,0.9,1.202318,5389,539,0.070936,0.597158,-299.340974,True,Optimization terminated successfully.
+BNP.PA,0.95,1.633511,5389,270,0.073252,0.620012,-160.713686,True,Optimization terminated successfully.
+BNP.PA,0.975,2.116472,5389,135,0.144741,0.550305,-73.906944,True,Optimization terminated successfully.
+CBK.DE,0.9,1.177838,5389,539,0.099972,0.562659,-282.916226,True,Optimization terminated successfully.
+CBK.DE,0.95,1.601188,5389,270,0.226608,0.499999,-144.033725,True,Optimization terminated successfully.
+CBK.DE,0.975,1.944554,5389,135,-0.003414,0.790127,-102.73823,True,Optimization terminated successfully.
+DBK.DE,0.9,1.168937,5389,539,0.094119,0.62,-332.068517,True,Optimization terminated successfully.
+DBK.DE,0.95,1.640318,5389,270,0.201685,0.556741,-166.328051,True,Optimization terminated successfully.
+DBK.DE,0.975,2.022006,5389,135,0.09338,0.752481,-109.215055,True,Optimization terminated successfully.
+GLE.PA,0.9,1.179354,5389,539,0.163096,0.537616,-292.399923,True,Optimization terminated successfully.
+GLE.PA,0.95,1.581089,5389,270,0.216987,0.551617,-167.963087,True,Optimization terminated successfully.
+GLE.PA,0.975,2.011987,5389,135,0.252511,0.597876,-99.648781,True,Optimization terminated successfully.
+INGA.AS,0.9,1.202589,5389,539,0.174399,0.548507,-309.301754,True,Optimization terminated successfully.
+INGA.AS,0.95,1.58527,5389,270,0.157133,0.646225,-194.541968,True,Optimization terminated successfully.
+INGA.AS,0.975,2.070947,5389,135,0.235275,0.645042,-107.572661,True,Optimization terminated successfully.
+ISP.MI,0.9,1.189471,5389,539,0.078239,0.614536,-318.738521,True,Optimization terminated successfully.
+ISP.MI,0.95,1.634078,5389,270,0.105712,0.615687,-167.587784,True,Optimization terminated successfully.
+ISP.MI,0.975,2.099913,5389,135,0.168499,0.587833,-86.020044,True,Optimization terminated successfully.
+SAN.MC,0.9,1.254551,5389,539,0.095712,0.533569,-252.006506,True,Optimization terminated successfully.
+SAN.MC,0.95,1.630782,5389,270,0.081609,0.585008,-147.279326,True,Optimization terminated successfully.
+SAN.MC,0.975,2.053375,5389,135,0.16456,0.539776,-73.974588,True,Optimization terminated successfully.

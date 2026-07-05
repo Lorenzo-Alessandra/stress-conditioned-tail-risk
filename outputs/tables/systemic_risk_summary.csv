@@ -1,0 +1,9 @@
+asset,mean_es_995,average_tail_connectedness_q95,delta_covar_q95,network_degree_050,network_weighted_degree_050,rank_mean_es_995,rank_tail_connectedness_q95,rank_delta_covar_q95,rank_network_weighted_degree_050,average_rank,systemic_risk_group
+GLE.PA,0.105298,0.569841,0.093483,6,3.496296,2.0,1.0,3.0,2.0,2.0,high
+BNP.PA,0.081838,0.568783,0.093713,6,3.492593,7.0,2.0,1.0,3.0,3.25,medium
+INGA.AS,0.104646,0.55291,0.09253,7,3.87037,3.0,4.0,5.0,1.0,3.25,medium
+BBVA.MC,0.082645,0.548677,0.093123,6,3.418519,6.0,5.0,4.0,5.0,5.0,medium
+DBK.DE,0.102127,0.521164,0.093551,6,3.155556,4.0,7.0,2.0,7.0,5.0,medium
+ISP.MI,0.087276,0.524339,0.091803,6,3.237037,5.0,6.0,6.0,6.0,5.75,lower
+SAN.MC,0.080005,0.553968,0.091437,6,3.437037,8.0,3.0,8.0,4.0,5.75,lower
+CBK.DE,0.113604,0.469312,0.091583,1,0.514815,1.0,8.0,7.0,8.0,6.0,lower
