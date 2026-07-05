@@ -1158,14 +1158,3 @@ Alessandra, L. Extreme Tail Risk and Systemic Connectedness in European Banks. G
 
 ---
 
-## License
-
-Add a license before public release.
-
-Recommended options:
-
-- MIT License for open code reuse
-- Apache 2.0 for a more explicit patent grant
-- no license if reuse is not permitted
-
-Without a license, others do not have explicit permission to reuse the code.
